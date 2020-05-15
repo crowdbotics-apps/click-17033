@@ -8,7 +8,6 @@ import SideMenu from './sideMenu';
 import Messaging45455Navigator from '../features/Messaging45455/navigator';
 import Settings45437Navigator from '../features/Settings45437/navigator';
 import Settings45404Navigator from '../features/Settings45404/navigator';
-import Dashboard145401Navigator from '../features/Dashboard145401/navigator';
 import MessengerNavigator from '../features/Messenger/navigator';
 import TutorialNavigator from '../features/Tutorial/navigator';
 import MapsNavigator from '../features/Maps/navigator';
@@ -28,7 +27,6 @@ const AppNavigator = {
 Messaging45455: { screen: Messaging45455Navigator },
 Settings45437: { screen: Settings45437Navigator },
 Settings45404: { screen: Settings45404Navigator },
-Dashboard145401: { screen: Dashboard145401Navigator },
 Messenger: { screen: MessengerNavigator },
 Tutorial: { screen: TutorialNavigator },
 Maps: { screen: MapsNavigator },
